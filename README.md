@@ -8,13 +8,12 @@ Perfect for travel packing lists, shopping lists, project planning, event prepar
 
 * ✅ Interactive PDF checkboxes
 * 🎨 Clean, modern PDF styling
-* 📋 Supports Obsidian task syntax (`- [ ]`, `- [x]`)
+* 📋 Supports markdown task syntax (`- [ ]`, `- [x]`)
 * 📑 Preserves Markdown headings
 * 📊 Supports Markdown tables
 * 🖨️ Print-friendly layout
 * 🔗 Removes Obsidian wikilinks (`[[Link]]`)
 * 🚫 Special handling for "Do Not Carry" sections
-* ⚡ Simple CLI powered by UV
 
 ---
 
@@ -51,7 +50,7 @@ A clean PDF with interactive checkboxes that can be ticked directly in most PDF 
 
 `output/Demo Input.pdf`:
 
-![Demo Output][assets/demo-output.png]
+![Demo Output](assets/demo-output.png)
 
 ---
 
@@ -189,7 +188,6 @@ Obsidian wikilinks are removed:
 
 Unsupported Unicode characters and emojis are stripped to maximize compatibility with `pdflatex`.
 
----
 
 ## Use Cases
 
@@ -201,7 +199,6 @@ Unsupported Unicode characters and emojis are stripped to maximize compatibility
 * Printable planners
 * Personal productivity workflows
 
----
 
 ## License
 
