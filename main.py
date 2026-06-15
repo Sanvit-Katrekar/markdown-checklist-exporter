@@ -29,3 +29,6 @@ def main():
     print("Compiling PDF...")
     compile_pdf(latex_doc, output_path)
     print(f"Done! Saved to: {output_path}")
+
+if __name__ == "__main__":
+    main()

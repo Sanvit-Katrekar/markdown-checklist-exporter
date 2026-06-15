@@ -22,6 +22,8 @@ Perfect for travel packing lists, shopping lists, project planning, event prepar
 
 ### Input
 
+`Demo Input.md`:
+
 ```md
 # Packing List
 
@@ -37,9 +39,19 @@ Perfect for travel packing lists, shopping lists, project planning, event prepar
 - [ ] Jeans
 ```
 
+Run command:
+
+```bash
+uv run main.py "Demo Input.md"
+```
+
 ### Output
 
 A clean PDF with interactive checkboxes that can be ticked directly in most PDF viewers.
+
+`output/Demo Input.pdf`:
+
+![Demo Output][assets/demo-output.png]
 
 ---
 
