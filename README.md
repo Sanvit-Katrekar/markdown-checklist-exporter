@@ -1,6 +1,6 @@
-# Obsidian Checklist PDF
+# Markdown Checklist Exporter
 
-Convert an Obsidian Markdown checklist into a beautiful, interactive PDF with clickable checkboxes.
+Convert any Markdown checklist into a beautiful, interactive PDF with clickable checkboxes.
 
 Perfect for travel packing lists, shopping lists, project planning, event preparation, and any checklist you want to use digitally or print.
 
@@ -23,7 +23,7 @@ Perfect for travel packing lists, shopping lists, project planning, event prepar
 ### Input
 
 ```md
-# Germany Packing List
+# Packing List
 
 ## Essentials
 
@@ -94,42 +94,22 @@ pdflatex --version
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/obsidian-checklist-pdf.git
-cd obsidian-checklist-pdf
+git clone https://github.com/Sanvit-Katrekar/markdown-checklist-exporter.git
+cd markdown-checklist-exporter
 ```
-
-Create the virtual environment:
-
-```bash
-uv venv
-```
-
----
 
 ## Usage
 
 Convert a markdown file into a tickable PDF:
 
 ```bash
-uv run main.py packing-list.md
+uv run main.py checklist.md
 ```
 
 Output:
 
 ```text
-output/packing-list.pdf
-```
-
-Example:
-
-```bash
-uv run main.py germany-packing-list.md
-```
-
-Result:
-
-```text
-output/germany-packing-list.pdf
+output/checklist.pdf
 ```
 
 ---
